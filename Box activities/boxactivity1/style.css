@@ -1,0 +1,60 @@
+/* ========================= 
+    TASK 1: TITLE (ID) 
+    ========================= */ 
+ 
+#title { 
+   color: green; 
+   text-align: center; 
+} 
+
+hr{
+    border:2px solid darkred;
+}
+ 
+ 
+/* ========================= 
+    TASK 2: BOX MODEL (ALL HOUSES) 
+    ========================= */ 
+ 
+.house { 
+   border: 2px dotted green; 
+   padding: 20px; 
+   margin: 10px; 
+} 
+ 
+ 
+/* ========================= 
+    TASK 3: HOUSE COLORS 
+    ========================= */ 
+ 
+/* Pupuke */ 
+.pupuke { 
+   background-color: blue; 
+} 
+ 
+/* Smale */ 
+.smale { 
+   background-color: green; 
+} 
+ 
+/* Stanley */ 
+.stanley { 
+   background-color: red; 
+} 
+ 
+/* Ururoto */ 
+.ururoto { 
+   background-color: black; 
+   color: white; 
+} 
+ 
+/* Murchison */ 
+.murchison { 
+   background-color: white; 
+} 
+ 
+/* Hood */ 
+.hood { 
+   background-color:  darkred; 
+   color: white;
+}
