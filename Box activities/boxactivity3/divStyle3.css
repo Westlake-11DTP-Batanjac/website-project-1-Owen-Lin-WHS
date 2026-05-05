@@ -18,7 +18,9 @@ html, body{
 
 } 
 
-  
+.temp{
+    color:white;
+}
 
 .box{ 
     width:200px; 
@@ -28,42 +30,39 @@ html, body{
 
   
 
-#box1{ 
+#header{ 
     background-color: #49d260; 
     width: 100%;
-    order: 1;
+    
 } 
 
-#box2{ 
+#nav{ 
     background-color: #c1d42f; 
     width: 100%;
-    order: 2;
+    
 } 
 
-#box3{ 
+#text{ 
     background-color: #5039d3; 
     margin-left: 431px;
-    margin-top:100px;
-    order: 3;
+    margin-top:0px;
+    width:300px; 
+    height: 400px; 
+    
 } 
 
-#box4{ 
+#image{ 
     background-color: #e03f3f;
-    order: 5;
+    
     margin-left: 1000px;
-    margin-top:-102px;
+    margin-top:-300px;
 } 
 
-#box5{ 
-    background-color: #d249cb;
-    margin-left: 431px;
-    margin-top:-104px;
-    order: 4;
-} 
 
-#box6{ 
+
+#footer{ 
     background-color: #e9a340; 
     width: 100%;
-    order: 6;
-    margin-top:100px;
+    
+    margin-top:300px;
 } 
