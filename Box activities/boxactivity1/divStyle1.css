@@ -18,9 +18,7 @@ html, body{
 
 } 
 
-.temp{
-    color:white;
-}
+  
 
 .box{ 
     width:200px; 
@@ -30,39 +28,35 @@ html, body{
 
   
 
-#header{ 
+#box1{ 
     background-color: #49d260; 
     width: 100%;
-    
+    order: 1;
 } 
 
-#nav{ 
+#box2{ 
     background-color: #c1d42f; 
     width: 100%;
-    
+    order: 2;
 } 
 
-#text{ 
+#box3{ 
     background-color: #5039d3; 
     margin-left: 431px;
-    margin-top:0px;
-    width:300px; 
-    height: 400px; 
-    
+    margin-top:100px;
+    order: 3;
 } 
 
-#image{ 
+#box4{ 
     background-color: #e03f3f;
-    
+    order: 5;
     margin-left: 1000px;
-    margin-top:-300px;
+    margin-top:-102px;
 } 
 
-
-
-#footer{ 
+#box6{ 
     background-color: #e9a340; 
     width: 100%;
-    
-    margin-top:300px;
+    order: 6;
+    margin-top:100px;
 } 
