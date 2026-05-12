@@ -4,8 +4,8 @@ html, body{
 } 
 
 div{
-display: flex;
-border-color:none;
+    display: flex;
+    border-color:none;
 }
 
 #header{
@@ -32,7 +32,7 @@ border-color:none;
     height: 50px;
 }
 
-#gameholder{
+#tabholder{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
@@ -41,14 +41,28 @@ border-color:none;
     margin-top: 10px;
 }
 
-.gametab{
+#contactus{
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    background-color: #d9d9ff;
+    height: 90%;
+    flex-wrap: wrap;
+}
+
+.smalltext{
+    width: 30%;
+    height: 50px;
     justify-content: center;
     align-items: center;
-    width: 40%;
-    background-color: #d9d9ff;
-    padding: 0px;
-    border-color: none;
-    height: 40%;
+    flex-wrap: wrap;
+    
+}
+
+.type{
+    width:90%;
+    height:50px;
+    background-color: #99c;
 }
 
 
