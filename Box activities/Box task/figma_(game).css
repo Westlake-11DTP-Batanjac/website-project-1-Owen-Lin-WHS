@@ -4,8 +4,9 @@ html, body{
 } 
 
 div{
-display: flex;
-border-color:none;
+    display: flex;
+    border-color:none;
+    border-radius: 5px;
 }
 
 #header{
@@ -43,10 +44,10 @@ border-color:none;
 .gametab{
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 42.5%;
     background-color: #d9d9ff;
     border-color: none;
-    height: 80%;
+    height: 90%;
 }
 
 

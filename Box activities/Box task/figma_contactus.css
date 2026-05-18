@@ -6,6 +6,7 @@ html, body{
 div{
     display: flex;
     border-color:none;
+    border-radius: 5px;
 }
 
 #header{
