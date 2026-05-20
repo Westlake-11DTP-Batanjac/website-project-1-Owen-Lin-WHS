@@ -17,6 +17,7 @@ div{
     position:sticky; 
     flex-wrap: wrap; 
     width: 100%;
+    background-color: #66a;
 }
 
 #header{
