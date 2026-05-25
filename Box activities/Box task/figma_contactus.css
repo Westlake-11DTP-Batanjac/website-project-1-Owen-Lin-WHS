@@ -60,9 +60,20 @@ div{
     justify-content: space-evenly;
 }
 
-.smalltype{
-    width:25%;
+.personinfo{
+    display: flex;
     flex-wrap: wrap;
+    width:25%;
+    justify-content: center;
+}
+
+#message{
+    display: flex;
+    flex-wrap: wrap;
+    width:83.6%;
+    height:50%;
+    justify-content: center;
+
 }
 
 
