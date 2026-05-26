@@ -24,21 +24,16 @@
     <div id="background"> 
         <div id="supportholder">
             <div class="supporttab">
-                    <form class="personinfo">
-                        <label for="fname">First Name:</label><br>
-                        <input type="text" name="fname" value="">
-                    </form>
-                    <form class="personinfo">
-                        <label for="lname">Last Name:</label><br>
-                        <input type="text" name="lname" value="">
-                    </form>
-                    <form class="personinfo">
-                        <label for="email">Email:</label><br>
-                        <input type="text" name="email" value="">
-                    </form>
-                <form id="message">
-                    <label for="message">Message:</label><br>
-                    <input style="width:100%; height:60%" type="text" name="message" value="">
+                <form>
+                    <label for="fname" class="info">First Name:</label>
+                    <label for="lname" class="info">Last Name:</label>
+                    <label for="email" class="info">Email:</label>
+                    <input class="textinfo" type="text" name="fname" value="">
+                    <input class="textinfo" type="text" name="lname" value="">
+                    <input class="textinfo" type="text" name="email" value="">
+                    <label for="message" class="info" style="width:100%;">Message:</label>
+                    <input id="textmsg" type="text" name="message" value="">
+                    <input type="submit" value="Send" style="width:100%">
                 </form>
             </div>
         </div>
