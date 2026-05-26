@@ -2,6 +2,7 @@ html, body{
     height: 100%; 
     margin: auto; 
 } 
+
 body{
     background-color: #66a;
 }
@@ -80,7 +81,7 @@ form{
 
 #textmsg{
     width: 100%;
-    height: 80%;
+    height: calc(100% - 120px);
     align-items: start;
 }
 
