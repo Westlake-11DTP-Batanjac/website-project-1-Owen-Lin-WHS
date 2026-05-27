@@ -94,3 +94,12 @@ form{
     align-self: end;
     height:100px;
 }
+
+.link{
+    color: black;
+}
+
+.image{
+    width:calc(100% - 30px);
+    padding:15px;
+}

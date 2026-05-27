@@ -2,7 +2,6 @@ html, body{
     height: 100%; 
     margin: auto; 
 } 
-
 body{
     background-color: #66a;
 }
@@ -52,17 +51,20 @@ div{
     height: 100%;
 }
 
-.gametab{
+#gameimg{
     background-color: #ddf;
     width:42.5%;
-    height:40%;
-    justify-content: space-evenly;
+    height:auto;
+    justify-content: space-around;
     align-items: center;
 }
 
-img{
-    max-height: 90%;
-    max-width: calc(70% - 10px);
+#gamemessage{
+    background-color: #ddf;
+    width:42.5%;
+    height:90%;
+    justify-content: space-around;
+    align-items: start;
 }
 
 #footer{
@@ -76,4 +78,9 @@ img{
 
 .link{
     color: black;
+}
+
+.image{
+    width:calc(100% - 30px);
+    padding:15px;
 }

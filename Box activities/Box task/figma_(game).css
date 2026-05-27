@@ -51,12 +51,20 @@ div{
     height: 100%;
 }
 
-.gametab{
+#gameimg{
+    background-color: #ddf;
+    width:42.5%;
+    height:auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#gamemessage{
     background-color: #ddf;
     width:42.5%;
     height:90%;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
 }
 
 #footer{
