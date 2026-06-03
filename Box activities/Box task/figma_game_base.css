@@ -9,7 +9,7 @@
 
 #gameimg{
     background-color: #ddf;
-    width:42.5%;
+    max-width:42.5%;
     height:auto;
     max-height: 90%;
     justify-content: space-around;

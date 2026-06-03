@@ -41,6 +41,7 @@ div{
     width:100%;
     flex-wrap: wrap;
     height: calc(100% - 170px);
+
 }
 
 #footer{
