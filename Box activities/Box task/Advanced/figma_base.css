@@ -1,0 +1,58 @@
+html, body{ 
+    height: 100%; 
+    margin: auto; 
+} 
+body{
+    background-color: #66a;
+}
+
+div{
+    display: flex;
+    border-color:none;
+    border-radius: 5px;
+}
+
+#sticky{
+    top:0; 
+    position:sticky; 
+    flex-wrap: wrap; 
+    width: 100%;
+    background-color: #66a;
+}
+
+#header{
+    width:100%;
+    height: 100px;
+    background-color: #aaf ;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabs{
+    width:100%;
+    background-color: #aaf;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    height: 50px;
+}
+
+#background{
+    width:100%;
+    flex-wrap: wrap;
+    height: calc(100% - 170px);
+
+}
+
+#footer{
+    width:100%;
+    background-color: #ddf;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+    height:100px;
+}
+
+.link{
+    color: black;
+}
