@@ -9,7 +9,7 @@
 
 #gameimg{
     background-color: #ddf;
-    max-width:42.5%;
+    width:42.5%;
     height:auto;
     max-height: 90%;
     object-fit: cover;
