@@ -1,0 +1,20 @@
+{% extends "game_base.html" %}
+
+
+{% block title %}Tetr.io{% endblock %}
+
+{% block image %}
+    <img src="{{url_for('static', filename='images/tetrio_gameplay.jpg')}}" alt='Tetrio image of people doing 1v1' class="image">
+{% endblock %}
+
+{% block text %}
+    <p>Tetr.io is a multiplayer block stacking game with multiple gamemodes, each being significantly different from one to another with them being Tetra League, Quick play, 40 Lines, and Blitz.</p>
+    <h3 class="spacing">Tetra League</h3>
+    <p>Tetra League is a tournament style game where your goal is to make your opponent top out/lose by sending attacks to them. There are multiple rounds in a match with it increasing as you move further up the ranks.</p>
+    <h3 class="spacing">Quick Play</h3>
+    <p>Quick Play is a multiplayer survival game where your goal is to start from the bottom and climb as high as possible through multiple floors. You also have modifiers that you can apply to yourself for each run, changing its difficulty.</p>
+    <h3 class="spacing">40 Lines</h3>
+    <p>40 Lines is a single player challenge style where your goal is to clear 40 'lines' as fast as possible so being as efficient as possible is key for a speedy finish.</p>
+    <h3 class="spacing">Blitz</h3>
+    <p>Blitz is also a single player challenge style game where your goal is to achieve as high of a score within 2 minutes with each clear giving different amount of points.</p>
+{% endblock %}

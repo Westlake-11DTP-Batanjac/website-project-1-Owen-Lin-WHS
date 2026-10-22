@@ -1,0 +1,7 @@
+shopping_list = {
+    'banana':3.50,
+    'carrots':2.00,
+    'steak':24.50,
+    'ice cream':5.99,}
+del shopping_list['ice cream']
+print(shopping_list['ice cream'])

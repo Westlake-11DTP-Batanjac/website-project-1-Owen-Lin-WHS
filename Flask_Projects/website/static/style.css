@@ -1,0 +1,213 @@
+/* The base of what everything should look like */
+html, body{ 
+    height: 100%; 
+    margin: auto; 
+} 
+
+body{
+    background-color: #66a;
+}
+
+div{
+    display: flex;
+    border-color:none;
+    border-radius: 5px;
+}
+
+#sticky{
+    top:0; 
+    position:sticky; 
+    flex-wrap: wrap; 
+    width: 100%;
+    background-color: #66a;
+}
+
+#header{
+    width:100%;
+    height: 100px;
+    background-color: #aaf ;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabs{
+    width:100%;
+    background-color: #aaf;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    height: 50px;
+}
+
+nav{
+    top:0; 
+    position:sticky; 
+    flex-wrap: wrap; 
+    width: 100%;
+    background-color: #66a;
+}
+
+
+#background{
+    width:100%;
+    flex-wrap: wrap;
+    height: calc(auto + 100px);
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100% - 170px);
+}
+
+#footer{
+    width:100%;
+    background-color: #ddf;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+    height:100px;
+}
+
+.link{
+    color: black;
+}
+
+
+/* For home page section */
+#gameholder{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 200px);
+}
+
+.site_info{
+    background-color: #ddf;
+    width:90%;
+    height: 200px;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.gametab{
+    background-color: #ddf;
+    width:340px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 340px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+
+
+/* For the base of the games shown */
+#gameholder{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 200px);
+}
+
+#gameimg{
+    background-color: #ddf;
+    width:42.5%;
+    height:auto;
+    max-height: 90%;
+    object-fit: cover;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    max-width: 700px;
+}
+
+#gamemessage{
+    background-color: #ddf;
+    width:42.5%;
+    height:min-content;
+    justify-content: space-around;
+    align-items: start;
+    max-width: 700px;
+}
+
+.infotxt{
+    flex-wrap: wrap;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    max-width:calc(100% - 30px);
+    padding:15px;
+    max-height:calc(100% - 30px);
+}
+
+.square_image{
+    max-width:310px;
+    padding:15px;
+    max-height:310px;
+}
+
+.spacing{
+    height:0px
+}
+
+
+/* What the contact us page should look like */
+#supportholder{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+}
+
+.supporttab{
+    width: 90%;
+    background-color: #ddf;
+    height: 90%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1500px;
+    
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:90%;
+    width:90%
+}
+
+.info{
+    display:flex;
+    width:30%;
+    justify-content: center;
+}
+
+.textinfo{
+    width:30%;
+}
+
+#textmsg{
+    width: 100%;
+    height: calc(100% - 120px);
+    align-items: start;
+}
+
+.fit{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.site_info_txt{
+    padding-left:10px;
+    padding-right:10px;
+}

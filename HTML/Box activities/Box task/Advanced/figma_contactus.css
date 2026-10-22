@@ -1,0 +1,42 @@
+#supportholder{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.supporttab{
+    width: 90%;
+    background-color: #ddf;
+    height: 90%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1500px;
+    
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:90%;
+    width:90%
+}
+
+.info{
+    display:flex;
+    width:30%;
+    justify-content: center;
+}
+
+.textinfo{
+    width:30%;
+}
+
+#textmsg{
+    width: 100%;
+    height: calc(100% - 120px);
+    align-items: start;
+}

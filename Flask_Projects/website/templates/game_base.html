@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div id="gameholder">
+        <div id="gameimg">
+            {% block image %}{% endblock %}
+        </div>
+        <div id="gamemessage">
+            <div class="infotxt">
+                {% block text %}{% endblock %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

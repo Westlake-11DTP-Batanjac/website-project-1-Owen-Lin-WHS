@@ -1,0 +1,24 @@
+#infoholder{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+}
+
+.padding{
+    width: calc(42.5% + 10px);
+    height:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.infotab{
+    background-color: #ddf;
+    width:calc(100% - 10px);
+    height:auto;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 700px;
+}

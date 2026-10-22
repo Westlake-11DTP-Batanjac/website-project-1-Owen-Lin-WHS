@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %}
+    <div class="site_info">
+        <p class="site_info_txt">This is what I'm making, and it is still in progress but the amount I learned from it is facinating to me. This is a selection of the games I like and the progress I've reached so far, I'm proud of myself and want to continue creating them. You can go to Contact Me and send your thoughts about it.</p>
+    </div>
+    <div id="gameholder">
+        <div class="gametab">
+            <a href="tetrio" class="fit"><img src="{{url_for('static', filename='images/tetrio.jpg')}}" alt='Tetrio image' class="square_image"></a>
+        </div>
+        <div class="gametab">
+            <a href="block tales" class="fit"><img src="{{url_for('static', filename='images/block_tales.jpg')}}" alt='Block Tales image' class="square_image"></a>
+        </div>
+        <div class="gametab">
+            <a href="geometry dash" class="fit"><img src="{{url_for('static', filename='images/geometry_dash.jpg')}}" alt='Geometry Dash image' class="square_image"></a>
+        </div>
+        <div class="gametab">
+            <a href="silksong" class="fit"><img src="{{url_for('static', filename='images/silksong.jpg')}}" alt='Silksong image' class="square_image"></a>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Forum</h2>
+    <section class="new-post">
+        <h2>Write a post</h2>
+        <form action="{{url_for('new_post')}}" method="POST">
+            <label for="author">Your Name</label>
+            <input type="text" id="author" name="author" maxlength="30" required>
+            <label for="message">Your post</label>
+            <textarea id="message" name="message" rows="4" maxlength="500" required></textarea>
+            <button type="submit">Post it</button>
+        </form>
+    </section>
+
+
+
+    
+        
+
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Track Finder - Home{% endblock %}
+
+{% block content %}
+    <img src="{{url_for('static', filename='images/logo.jpg')}}" alt='Track Finder Logo'>
+
+    <h1>{{site_name}}</h1>
+    <p> Walking tracks around Auckland.</p>
+    <p1> there are {{count}} tracks</p1>
+    {% if count > 3 %}
+        <p>Plenty to choose from.</p>
+    {% else %}
+        <p>Only a few for now.</p>
+    {% endif %}
+{% endblock %}
